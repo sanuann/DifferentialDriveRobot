@@ -14,8 +14,10 @@ In ~/myrobot_ws/src/myrobot_description/urdf, there are four files:
 * materials.xacro: maps strings to colors
 * macros.xacro: macros to help simplify
 
-
-abcd
+### Run the Models
+Load the Gazebo simulator and rviz in separate terminals.
 ```
+roslaunch myrobot_gazebo myrobot_world.launch
+roslaunch myrobot_description myrobot_rviz.launch
 
 
