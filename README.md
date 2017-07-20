@@ -19,6 +19,7 @@ Load the Gazebo simulator and rviz in separate terminals.
 ```
 roslaunch myrobot_gazebo myrobot_world.launch
 roslaunch myrobot_description myrobot_rviz.launch
+```
 
-abcd
+
 
