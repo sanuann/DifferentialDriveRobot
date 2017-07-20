@@ -1,0 +1,8 @@
+prefix=/home/sanu/catkin_ws/install
+
+Name: myrobot_gazebo
+Description: Description of myrobot_gazebo
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/sanu/catkin_ws/install/lib 
+Requires: 

@@ -1,0 +1,2 @@
+myrobot_control:myrobot_description:myrobot_gazebo
+-DCATKIN_DEVEL_PREFIX=/home/sanu/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/sanu/catkin_ws/install -G Unix Makefiles
