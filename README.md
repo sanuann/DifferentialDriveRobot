@@ -35,7 +35,7 @@ angular:
 ```
 
 #### Keyboard teleop mode:
-The ~/catkin_ws/src/myrobot_control/scripts folder contains the *myrobot_key* node, which is the teleop node.
+The ~/catkin_ws/src/myrobot_control/scripts folder contains the *myrobot_key* node, which is the teleop node. There is already a standard teleop node implementation available (for the turtlebot), we simply reused the node. Then a remapping is done from the turtlebot_teleop_keyboard/cmd_vel to /cmd_vel of our robot in the *keyboard_teleop.launch* file.
 
 * Launch the gazebo simulator with complete simulation settings using the following command:
 ```
