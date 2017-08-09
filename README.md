@@ -20,6 +20,8 @@ Load the Gazebo simulator and rviz in separate terminals using the following com
 roslaunch myrobot_gazebo myrobot_world.launch
 roslaunch myrobot_description myrobot_rviz.launch
 ```
+![simulation_in_gazebo_and_rviz](https://user-images.githubusercontent.com/5114945/29138625-5ee60c4a-7d12-11e7-8a74-f363cd7b2a8b.png)
+
 #### Circle mode:
 On a new terminal use the following command to make the robot drive incessantly along a circle of user-defined diameter. 
 (Here diameter = 4 m. So, radius = 2m. Thus linear and angular velocities are set accordingly) 
