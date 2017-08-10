@@ -331,6 +331,12 @@ myrobot_gazebo_BINARY_DIR:STATIC=/home/sanu/catkin_ws/build/myrobot_gazebo
 //Value Computed by CMake
 myrobot_gazebo_SOURCE_DIR:STATIC=/home/sanu/catkin_ws/src/myrobot_gazebo
 
+//Value Computed by CMake
+robot_cleaner_BINARY_DIR:STATIC=/home/sanu/catkin_ws/build/robot_cleaner
+
+//Value Computed by CMake
+robot_cleaner_SOURCE_DIR:STATIC=/home/sanu/catkin_ws/src/robot_cleaner
+
 //The directory containing a CMake configuration file for rosconsole.
 rosconsole_DIR:PATH=/opt/ros/kinetic/share/rosconsole/cmake
 

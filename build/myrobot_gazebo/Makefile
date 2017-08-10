@@ -78,6 +78,17 @@ install/fast: preinstall/fast
 	/usr/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
 
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
+
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -122,17 +133,6 @@ test/fast: test
 
 .PHONY : test/fast
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # The main all target
 all: cmake_check_build_system
 	cd /home/sanu/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/sanu/catkin_ws/build/CMakeFiles /home/sanu/catkin_ws/build/myrobot_gazebo/CMakeFiles/progress.marks
@@ -165,6 +165,48 @@ depend:
 	cd /home/sanu/catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
+# Convenience name for target.
+myrobot_gazebo/CMakeFiles/myrobot_gazebo_node.dir/rule:
+	cd /home/sanu/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 myrobot_gazebo/CMakeFiles/myrobot_gazebo_node.dir/rule
+.PHONY : myrobot_gazebo/CMakeFiles/myrobot_gazebo_node.dir/rule
+
+# Convenience name for target.
+myrobot_gazebo_node: myrobot_gazebo/CMakeFiles/myrobot_gazebo_node.dir/rule
+
+.PHONY : myrobot_gazebo_node
+
+# fast build rule for target.
+myrobot_gazebo_node/fast:
+	cd /home/sanu/catkin_ws/build && $(MAKE) -f myrobot_gazebo/CMakeFiles/myrobot_gazebo_node.dir/build.make myrobot_gazebo/CMakeFiles/myrobot_gazebo_node.dir/build
+.PHONY : myrobot_gazebo_node/fast
+
+src/square_mode.o: src/square_mode.cpp.o
+
+.PHONY : src/square_mode.o
+
+# target to build an object file
+src/square_mode.cpp.o:
+	cd /home/sanu/catkin_ws/build && $(MAKE) -f myrobot_gazebo/CMakeFiles/myrobot_gazebo_node.dir/build.make myrobot_gazebo/CMakeFiles/myrobot_gazebo_node.dir/src/square_mode.cpp.o
+.PHONY : src/square_mode.cpp.o
+
+src/square_mode.i: src/square_mode.cpp.i
+
+.PHONY : src/square_mode.i
+
+# target to preprocess a source file
+src/square_mode.cpp.i:
+	cd /home/sanu/catkin_ws/build && $(MAKE) -f myrobot_gazebo/CMakeFiles/myrobot_gazebo_node.dir/build.make myrobot_gazebo/CMakeFiles/myrobot_gazebo_node.dir/src/square_mode.cpp.i
+.PHONY : src/square_mode.cpp.i
+
+src/square_mode.s: src/square_mode.cpp.s
+
+.PHONY : src/square_mode.s
+
+# target to generate assembly for a file
+src/square_mode.cpp.s:
+	cd /home/sanu/catkin_ws/build && $(MAKE) -f myrobot_gazebo/CMakeFiles/myrobot_gazebo_node.dir/build.make myrobot_gazebo/CMakeFiles/myrobot_gazebo_node.dir/src/square_mode.cpp.s
+.PHONY : src/square_mode.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -173,11 +215,15 @@ help:
 	@echo "... depend"
 	@echo "... list_install_components"
 	@echo "... install"
+	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... myrobot_gazebo_node"
 	@echo "... install/strip"
 	@echo "... install/local"
 	@echo "... test"
-	@echo "... edit_cache"
+	@echo "... src/square_mode.o"
+	@echo "... src/square_mode.i"
+	@echo "... src/square_mode.s"
 .PHONY : help
 
 

@@ -529,6 +529,19 @@ rosgraph_msgs_generate_messages_lisp/fast:
 	$(MAKE) -f myrobot_control/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make myrobot_control/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
 .PHONY : rosgraph_msgs_generate_messages_lisp/fast
 
+#=============================================================================
+# Target rules for targets named myrobot_gazebo_node
+
+# Build rule for target.
+myrobot_gazebo_node: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 myrobot_gazebo_node
+.PHONY : myrobot_gazebo_node
+
+# fast build rule for target.
+myrobot_gazebo_node/fast:
+	$(MAKE) -f myrobot_gazebo/CMakeFiles/myrobot_gazebo_node.dir/build.make myrobot_gazebo/CMakeFiles/myrobot_gazebo_node.dir/build
+.PHONY : myrobot_gazebo_node/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -570,6 +583,7 @@ help:
 	@echo "... rosgraph_msgs_generate_messages_py"
 	@echo "... roscpp_generate_messages_nodejs"
 	@echo "... rosgraph_msgs_generate_messages_lisp"
+	@echo "... myrobot_gazebo_node"
 .PHONY : help
 
 

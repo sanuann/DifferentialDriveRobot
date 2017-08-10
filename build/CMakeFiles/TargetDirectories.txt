@@ -56,8 +56,9 @@
 /home/sanu/catkin_ws/build/myrobot_control/CMakeFiles/install/local.dir
 /home/sanu/catkin_ws/build/myrobot_gazebo/CMakeFiles/list_install_components.dir
 /home/sanu/catkin_ws/build/myrobot_gazebo/CMakeFiles/install.dir
+/home/sanu/catkin_ws/build/myrobot_gazebo/CMakeFiles/edit_cache.dir
 /home/sanu/catkin_ws/build/myrobot_gazebo/CMakeFiles/rebuild_cache.dir
+/home/sanu/catkin_ws/build/myrobot_gazebo/CMakeFiles/myrobot_gazebo_node.dir
 /home/sanu/catkin_ws/build/myrobot_gazebo/CMakeFiles/install/strip.dir
 /home/sanu/catkin_ws/build/myrobot_gazebo/CMakeFiles/install/local.dir
 /home/sanu/catkin_ws/build/myrobot_gazebo/CMakeFiles/test.dir
-/home/sanu/catkin_ws/build/myrobot_gazebo/CMakeFiles/edit_cache.dir

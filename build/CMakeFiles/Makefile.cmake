@@ -214,4 +214,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "myrobot_control/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/DependInfo.cmake"
   "myrobot_control/CMakeFiles/roscpp_generate_messages_nodejs.dir/DependInfo.cmake"
   "myrobot_control/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/DependInfo.cmake"
+  "myrobot_gazebo/CMakeFiles/myrobot_gazebo_node.dir/DependInfo.cmake"
   )
