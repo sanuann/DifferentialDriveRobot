@@ -1,9 +1,9 @@
 # Differential Drive Robot
 
 ### package dependencies
-* **rospy**
-* **roscpp**
-* **geometry_msgs**
+* rospy
+* roscpp
+* geometry_msgs
 
 
 ### Brief Explanation
