@@ -54,6 +54,19 @@ rosrun myrobot_gazebo circle_mode.py
 
 ![circle_mode](https://user-images.githubusercontent.com/5114945/29154671-10523ce6-7d64-11e7-94c5-bfdad3751dd6.png)
 
+#### Square mode:
+The ~/catkin_ws/src/myrobot_gazebbo/scripts contains the square_mode.py node. It draws a square of 0.4m side.
+
+* Launch the gazebo simulator using the following command:
+```
+roslaunch myrobot_gazebo myrobot_world.launch
+```
+* Start the square_mode node:
+```
+rosrun myrobot_gazebo square_mode.py
+```
+This method is not perfect as the robot is way off from the point it started, after completing the square. Using motion planning the action can be made accurate.
+
 #### Keyboard teleop mode:
 The ~/catkin_ws/src/myrobot_control/scripts folder contains the *myrobot_key* node, which is the teleop node. There is already a standard teleop node implementation available (for the turtlebot), we simply reused the node. Then a remapping is done from the turtlebot_teleop_keyboard/cmd_vel to /cmd_vel of our robot in the *keyboard_teleop.launch* file.
 
