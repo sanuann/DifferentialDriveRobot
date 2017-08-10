@@ -27,13 +27,6 @@
 /home/sanu/catkin_ws/build/myrobot_description/CMakeFiles/install/local.dir
 /home/sanu/catkin_ws/build/myrobot_description/CMakeFiles/install/strip.dir
 /home/sanu/catkin_ws/build/myrobot_description/CMakeFiles/test.dir
-/home/sanu/catkin_ws/build/myrobot_gazebo/CMakeFiles/list_install_components.dir
-/home/sanu/catkin_ws/build/myrobot_gazebo/CMakeFiles/install.dir
-/home/sanu/catkin_ws/build/myrobot_gazebo/CMakeFiles/rebuild_cache.dir
-/home/sanu/catkin_ws/build/myrobot_gazebo/CMakeFiles/install/strip.dir
-/home/sanu/catkin_ws/build/myrobot_gazebo/CMakeFiles/install/local.dir
-/home/sanu/catkin_ws/build/myrobot_gazebo/CMakeFiles/test.dir
-/home/sanu/catkin_ws/build/myrobot_gazebo/CMakeFiles/edit_cache.dir
 /home/sanu/catkin_ws/build/myrobot_control/CMakeFiles/list_install_components.dir
 /home/sanu/catkin_ws/build/myrobot_control/CMakeFiles/install.dir
 /home/sanu/catkin_ws/build/myrobot_control/CMakeFiles/rebuild_cache.dir
@@ -61,3 +54,10 @@
 /home/sanu/catkin_ws/build/myrobot_control/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir
 /home/sanu/catkin_ws/build/myrobot_control/CMakeFiles/install/strip.dir
 /home/sanu/catkin_ws/build/myrobot_control/CMakeFiles/install/local.dir
+/home/sanu/catkin_ws/build/myrobot_gazebo/CMakeFiles/list_install_components.dir
+/home/sanu/catkin_ws/build/myrobot_gazebo/CMakeFiles/install.dir
+/home/sanu/catkin_ws/build/myrobot_gazebo/CMakeFiles/rebuild_cache.dir
+/home/sanu/catkin_ws/build/myrobot_gazebo/CMakeFiles/install/strip.dir
+/home/sanu/catkin_ws/build/myrobot_gazebo/CMakeFiles/install/local.dir
+/home/sanu/catkin_ws/build/myrobot_gazebo/CMakeFiles/test.dir
+/home/sanu/catkin_ws/build/myrobot_gazebo/CMakeFiles/edit_cache.dir

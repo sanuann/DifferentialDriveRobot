@@ -2,7 +2,7 @@ prefix=/home/sanu/catkin_ws/install
 
 Name: myrobot_gazebo
 Description: Description of myrobot_gazebo
-Version: 0.0.0
+Version: 1.0.0
 Cflags: 
 Libs: -L/home/sanu/catkin_ws/install/lib 
-Requires: 
+Requires: roscpp rospy std_msgs geometry_msgs message_runtime

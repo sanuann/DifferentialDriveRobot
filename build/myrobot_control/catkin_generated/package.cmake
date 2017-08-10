@@ -1,6 +1,6 @@
 set(_CATKIN_CURRENT_PACKAGE "myrobot_control")
 set(myrobot_control_VERSION "0.0.0")
-set(myrobot_control_MAINTAINER "sanu <sanu@todo.todo>")
+set(myrobot_control_MAINTAINER "sanu <abraham.sanuann@gmail.com>")
 set(myrobot_control_PACKAGE_FORMAT "1")
 set(myrobot_control_BUILD_DEPENDS "geometry_msgs" "roscpp" "rospy")
 set(myrobot_control_BUILD_EXPORT_DEPENDS "geometry_msgs" "roscpp" "rospy")

@@ -1,6 +1,6 @@
 set(_CATKIN_CURRENT_PACKAGE "myrobot_description")
 set(myrobot_description_VERSION "0.0.0")
-set(myrobot_description_MAINTAINER "sanu <sanu@todo.todo>")
+set(myrobot_description_MAINTAINER "sanu <abraham.sanuann@gmail.com>")
 set(myrobot_description_PACKAGE_FORMAT "1")
 set(myrobot_description_BUILD_DEPENDS )
 set(myrobot_description_BUILD_EXPORT_DEPENDS )

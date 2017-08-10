@@ -353,24 +353,6 @@ clean: myrobot_description/CMakeFiles/_catkin_empty_exported_target.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Directory level rules for directory myrobot_gazebo
-
-# Convenience name for "all" pass in the directory.
-myrobot_gazebo/all:
-
-.PHONY : myrobot_gazebo/all
-
-# Convenience name for "clean" pass in the directory.
-myrobot_gazebo/clean:
-
-.PHONY : myrobot_gazebo/clean
-
-# Convenience name for "preinstall" pass in the directory.
-myrobot_gazebo/preinstall:
-
-.PHONY : myrobot_gazebo/preinstall
-
-#=============================================================================
 # Directory level rules for directory myrobot_control
 
 # Convenience name for "all" pass in the directory.
@@ -1046,6 +1028,24 @@ myrobot_control/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean:
 clean: myrobot_control/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory myrobot_gazebo
+
+# Convenience name for "all" pass in the directory.
+myrobot_gazebo/all:
+
+.PHONY : myrobot_gazebo/all
+
+# Convenience name for "clean" pass in the directory.
+myrobot_gazebo/clean:
+
+.PHONY : myrobot_gazebo/clean
+
+# Convenience name for "preinstall" pass in the directory.
+myrobot_gazebo/preinstall:
+
+.PHONY : myrobot_gazebo/preinstall
 
 #=============================================================================
 # Special targets to cleanup operation of make.
