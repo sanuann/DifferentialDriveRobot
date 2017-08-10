@@ -65,7 +65,7 @@ class DrawASquare():
             if(count == 4): 
                 count = 0
             if(count == 0): 
-                rospy.loginfo("TurtleBot should be close to the original starting position (but it's probably way off)")
+                rospy.loginfo("Myrobot should be close to the original starting position (but it's probably way off)")
         
     def shutdown(self):
         # stop turtlebot
